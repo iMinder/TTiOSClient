@@ -93,7 +93,7 @@
         if (![_database tableExists:TABLE_ALL_CONTACTS]) {
             [self createTable:SQL_CREATE_ALL_CONTACTS];
         }
-        if (![_database tableExists:SQL_CREATE_RECENT_GROUPS]) {
+        if (![_database tableExists:TABLE_RECENT_GROUPS]) {
             [self createTable:SQL_CREATE_RECENT_GROUPS];
         }
         }];
